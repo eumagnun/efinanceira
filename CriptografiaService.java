@@ -1,4 +1,4 @@
-package br.com.segurosunimed.efinanceira.service;
+package br.com.seguros.efinanceira.service;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -29,7 +29,7 @@ import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import br.com.segurosunimed.efinanceira.util.Configuracao;
+import br.com.seguros.efinanceira.util.Configuracao;
 
 @Component
 public class CriptografiaService implements Serializable {
